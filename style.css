@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+.insideimage1{
+  position: absolute;
+  top: 75%;
+  left: 27%;
+  font-size: 50px;
+  font-style: serif;
+  color: beige ;
+}
+.logo{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.bar{
+    display: flex;
+    height: 50px;
+    width: 65%;
+    position: absolute;
+    background-color: rgba(2, 2, 2, 0.322);
+    margin-top: 30px;
+    margin-left: 35%;
+}
+.list{
+    margin: auto;
+}
+.hello{
+    text-decoration: none;
+    color: beige;
+}
+#outerdiv{
+    overflow: hidden;
+}
+#outerdiv figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    width: 400%;
+    animation: 20s hello infinite;
+}
+#outerdiv figure img{
+    float: left;
+    width: 25%;
+    height: 480px;
+}
+@keyframes hello{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    100%{
+        left: -300%;
+    } 
+}
+#heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(13, 24, 24);
+    font-size: xx-large;  
+    font-weight: bold;
+}
+.photos{
+    text-align: center;
+    opacity: 75%;
+    background-color: blueviolet;
+    height: 100px;
+    margin-top: 500;  
+}
+.things{
+    text-align: center;
+    height: 405px;
+    display: flex;
+    gap: 10px;
+}
+.things1{
+    margin-left: auto;
+    background-color: rgb(255, 0, 0);
+}
+.things2{
+    background-color: rgb(16, 12, 212);
+}
+.things3{
+    background-color: rgb(219, 252, 30); 
+}
+.things4{
+    background-color: rgb(3, 161, 16);
+    margin-right: auto;
+}
+.textinside{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    margin-left: 128px;
+    margin-top: 70px;
+}
+ .inside1{ 
+    color: #fff;
+    font-weight: bold;
+    font-style: serif;
+    height: 250px;
+    width: 266px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(63, 19, 19, 0.466);
+}
+.inside2{
+    color: #fff;
+    font-weight: bold;
+    font-style: serif;
+    height: 250px;
+    width: 266px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(63, 19, 19, 0.466);
+}
+.inside3{
+    color: #fff;
+    font-weight: bold;
+    font-style: serif;
+    height: 250px;
+    width: 265px;
+
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(63, 19, 19, 0.466);
+}
+.inside4{
+    color: #fff;
+    font-style: serif;
+    font-weight: bold;
+    height: 250px;
+    width: 266px;
+
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(63, 19, 19, 0.466);
+    
+}
+.agriculture{
+    position: absolute;
+    margin-top: 250px;
+    width: 265px;
+    color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+
+
+}
+.ayurveda{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 276px;
+    width: 265px;
+    color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+
+}
+.festivals{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 552px;
+    width: 265px;
+    color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+
+}
+.culture{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 827px;
+    width: 265px;
+    color:beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#todo{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large; 
+    height: 25px;
+    width: 200px;
+    position: absolute;
+    margin-left: 42.5%;
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif
+}
+.grid1{  
+    display: grid;
+    width:  100%;
+    height: 600px;
+    grid-template-columns:  33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    background-color: beige;   
+}
+.box1
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-left: auto;
+    margin-top: auto ;
+    text-align: right;  
+}
+.box2
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right; 
+}
+.box3
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-top: auto;
+    margin-right: auto;
+    text-align: right;   
+}
+.box4
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-left: auto;
+    text-align: right;  
+}
+.box5
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;  
+}
+.box6
+{
+    height: 200px;
+    width: 370px;
+    background-color: rgb(216, 25, 25);
+    margin-right: auto;
+    text-align: right;  
+}
+.artform{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 250px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.parasailing{
+    position: absolute;
+    margin-left: 493px;
+    margin-top: 250px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.trekking{
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 250px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.scubadiving{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 460px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.cityride{
+    position: absolute;
+    margin-left: 493px;
+    margin-top: 460px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.camping{
+    position: absolute;
+    margin-left: 910px;
+    margin-top: 460px;
+    background-color: rgb(12, 12, 12,0.32);
+    width: 370px;
+    color: aliceblue;
+}
+.youtube{
+    text-align: center;
+}
+.newpage{
+    min-width: 180px;
+    padding: 10px 20px;
+    background-color: #036;
+    color: #fff;
+    display: inline-block;
+    margin-top: 2.5%; 
+}
+.kerala
+{
+    color: white ;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form1{
+    text-align: center;
+    font-style: verdana;
+    background-color: rgb(211, 204, 195);
+
+    padding-bottom: 40px;
+}
+.footercontent{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: beige;
+    padding-top: 10px;
+    
+}
+.logos{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 33%;
+    margin-top: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+.socialmedia{
+    text-decoration: none;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
